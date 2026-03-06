@@ -1,5 +1,15 @@
 ## Program to read from a file
+import os
 
-with open("example.txt", "r") as file:
-    content = file.read()
-    print(content)
+
+def read(filename):
+    if os.path.isfile(filename):
+        with open(filename, "r") as file:
+            content = file.read()
+        return content
+
+    else:
+        return FileNotFoundError
+
+
+print(read("sample.txt"))
