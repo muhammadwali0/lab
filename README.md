@@ -44,5 +44,8 @@ This repository is a living log of my progress through the Python ecosystem. It 
 * **File Operations:** Mastering the `open()` function and the `with` statement (Context Managers) for reading, writing, and appending data safely.
 * **Working with File Paths:** Navigating filesystems using `os.path` and the modern `pathlib` library for cross-platform compatibility.
 
+## Section 7: Exception Handling
+* **Exception Handling:** Building resilient code using `try`, `except`, `else`, and `finally` blocks to manage runtime errors gracefully.
+
 ---
 *More to come...*
