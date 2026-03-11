@@ -1,10 +1,4 @@
-// Task #3
-// Scenario: You are working on an e-commerce platform that needs a feature to
-// calculate discounts on products and display the current date of the transaction.
-//
-// Task Description: Create a program that takes the product's original price,
-// applies a discount percentage, and calculates the final price after the discount.
-// The program should also display the current date and time of the transaction.
+// Program to apply a discount to a product price and display the final price with the current transaction date.
 
 import java.util.Scanner;
 import java.util.Date;

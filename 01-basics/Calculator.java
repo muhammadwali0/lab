@@ -1,11 +1,4 @@
-// Home Task #1
-// Interactive Calculator (CMD and IDE)
-// Objective: Create a simple calculator application that takes input from
-// the user and performs basic arithmetic operations.
-//
-// Instructions: Write a Java program that prompts the user to enter two numbers
-// and an operator (+, -, *, /). Use Scanner to read the input from the console.
-// Perform the requested operation and print the result to the console.
+// Program to take two numbers and an operator as input and perform the corresponding arithmetic operation.
 
 import java.util.Scanner;
 

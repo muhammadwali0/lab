@@ -1,10 +1,4 @@
-// Task #2
-// Scenario: You are tasked with creating a Java program that calculates the sum of
-// all even numbers between 1 and 100. The program should use a loop structure to
-// iterate through the numbers and add the even ones to a running total.
-//
-// Task Description: Write a Java program using a loop and arithmetic operators to
-// calculate and print the sum of all even numbers from 1 to 100.
+// Program to calculate and print the sum of all even numbers from 1 to 100 using a loop.
 
 public class SumOfEvens {
     public static void main(String[] args) {

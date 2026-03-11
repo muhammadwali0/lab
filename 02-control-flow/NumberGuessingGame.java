@@ -1,15 +1,4 @@
-// Home Task #3
-// The Number Guessing Game Challenge
-// Objective: Develop a number guessing game using Java's control flow statements
-// (loops, conditionals), random number generation, and user input.
-//
-// Instructions:
-// - Generate a random secret number between 1 and 100 using java.util.Random.
-// - The user has 7 attempts to guess the number.
-// - After each guess, tell the user "Too high!" or "Too low!".
-// - If the user guesses correctly, congratulate them and show attempts taken.
-// - If attempts run out, reveal the secret number.
-// - Bonus: Add a play again option.
+// Program to play a number guessing game where the user has 7 attempts to guess a random number between 1 and 100.
 
 import java.util.Scanner;
 import java.util.Random;

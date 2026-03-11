@@ -1,18 +1,4 @@
-// Task #3
-// Scenario: You are developing a weather prediction system that advises users on
-// how to dress based on the temperature and weather conditions.
-//
-// Task Description: The program asks the user to input the current temperature
-// (in degrees Celsius) and weather condition ("rainy" or "sunny"), then gives
-// advice on appropriate clothing based on the following logic:
-// - Below 0°C + rainy: "Wear a heavy coat and take an umbrella."
-// - Below 0°C + sunny: "Wear a heavy coat and sunglasses."
-// - 0°C to 10°C + rainy: "Wear a warm jacket and take an umbrella."
-// - 0°C to 10°C + sunny: "Wear a warm jacket and sunglasses."
-// - 11°C to 20°C + rainy: "Wear a light jacket and take an umbrella."
-// - 11°C to 20°C + sunny: "Wear a light jacket and sunglasses."
-// - Above 20°C + rainy: "Wear light clothing and take an umbrella."
-// - Above 20°C + sunny: "Wear light clothing and sunglasses."
+// Program to suggest appropriate clothing based on temperature and weather condition (rainy or sunny).
 
 import java.util.Scanner;
 
@@ -29,29 +15,13 @@ public class WeatherAdvisor {
         String advice;
 
         if (temperature < 0) {
-            if (weather.equals("rainy")) {
-                advice = "Wear a heavy coat and take an umbrella.";
-            } else {
-                advice = "Wear a heavy coat and sunglasses.";
-            }
+            advice = weather.equals("rainy") ? "Wear a heavy coat and take an umbrella." : "Wear a heavy coat and sunglasses.";
         } else if (temperature <= 10) {
-            if (weather.equals("rainy")) {
-                advice = "Wear a warm jacket and take an umbrella.";
-            } else {
-                advice = "Wear a warm jacket and sunglasses.";
-            }
+            advice = weather.equals("rainy") ? "Wear a warm jacket and take an umbrella." : "Wear a warm jacket and sunglasses.";
         } else if (temperature <= 20) {
-            if (weather.equals("rainy")) {
-                advice = "Wear a light jacket and take an umbrella.";
-            } else {
-                advice = "Wear a light jacket and sunglasses.";
-            }
+            advice = weather.equals("rainy") ? "Wear a light jacket and take an umbrella." : "Wear a light jacket and sunglasses.";
         } else {
-            if (weather.equals("rainy")) {
-                advice = "Wear light clothing and take an umbrella.";
-            } else {
-                advice = "Wear light clothing and sunglasses.";
-            }
+            advice = weather.equals("rainy") ? "Wear light clothing and take an umbrella." : "Wear light clothing and sunglasses.";
         }
 
         System.out.println("Advice: " + advice);

@@ -1,13 +1,4 @@
-// Task #2
-// Scenario: Create a basic program for a fitness tracking app that computes
-// the total distance a person runs in a week. The app keeps track of the
-// distance the user runs each day, from Monday to Sunday.
-//
-// Task Description: Develop a fitness tracking app that computes the total distance
-// a person runs over a week by storing daily running distances in seven variables
-// (double type) for each day from Monday to Sunday. Prompt the user for the daily
-// inputs and calculate the total distance by summing up all the daily distances.
-// Display the total distance to the user at the end of the program.
+// Program to calculate the total distance run over a week by taking daily distances as input.
 
 import java.util.Scanner;
 
