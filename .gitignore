@@ -1,0 +1,9 @@
+*.class
+*.jar
+bin/
+out/
+.idea/
+.eclipse/
+.settings/
+.classpath
+.project
