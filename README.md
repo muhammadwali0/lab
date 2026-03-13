@@ -47,5 +47,16 @@ This repository is a living log of my progress through the Python ecosystem. It 
 ## Section 7: Exception Handling
 * **Exception Handling:** Building resilient code using `try`, `except`, `else`, and `finally` blocks to manage runtime errors gracefully.
 
+## Section 8: OOPS
+* **Classes And Objects:** Understanding the blueprint (`class`) and the instance (`object`) relationship.
+* **Inheritance:** Enabling code reuse and hierarchy creation using parent and child classes.
+
+* **Polymorphism:** Allowing different classes to be treated as instances of the same general class through method overriding.
+* **Encapsulation:** Restricting access to internal state using private/protected naming conventions (`_` and `__`).
+* **Abstraction:** Hiding complex implementation details using Abstract Base Classes (`abc` module).
+* **Magic Methods:** Customizing class behavior with "dunder" methods like `__init__`, `__str__`, and `__repr__`.
+* **Operator Overloading:** Implementing custom arithmetic and comparison logic for objects using magic methods.
+* **Custom Exception Handling:** Defining domain-specific errors by inheriting from the base `Exception` class.
+
 ---
 *More to come...*
