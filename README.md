@@ -50,7 +50,6 @@ This repository is a living log of my progress through the Python ecosystem. It 
 ## Section 8: OOPS
 * **Classes And Objects:** Understanding the blueprint (`class`) and the instance (`object`) relationship.
 * **Inheritance:** Enabling code reuse and hierarchy creation using parent and child classes.
-
 * **Polymorphism:** Allowing different classes to be treated as instances of the same general class through method overriding.
 * **Encapsulation:** Restricting access to internal state using private/protected naming conventions (`_` and `__`).
 * **Abstraction:** Hiding complex implementation details using Abstract Base Classes (`abc` module).
