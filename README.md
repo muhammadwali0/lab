@@ -1,4 +1,4 @@
-# Python Mastery
+# Python Lab
 
 Documenting my journey from basic syntax to Machine Learning, NLP, and beyond.
 
