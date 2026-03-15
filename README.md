@@ -1,4 +1,4 @@
-# Java Mastery
+# Java Lab
 
 Documenting my journey learning Java, from syntax fundamentals to object-oriented design and beyond.
 
