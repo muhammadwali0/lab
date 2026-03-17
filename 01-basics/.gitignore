@@ -1,0 +1,15 @@
+# Compiled binaries
+*
+!*/
+!*.*
+
+# Except specific configuration/documentation files without extensions
+!Makefile
+!LICENSE
+!README.md
+!.gitignore
+
+# Standard build artifacts
+*.o
+*.out
+*.swp
