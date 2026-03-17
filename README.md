@@ -19,4 +19,16 @@ This repository serves as a log of my progress as I map my existing programming 
 
 ---
 
+## Section 2: Data Types and Operators
+
+* **Data Types & Literals:** Exploring the physical memory footprint of C++ primitives. Differentiating between hard-coded values (literals) and dynamic storage.
+* **Variables:** Managing named memory locations with strict static typing and explicit initialization.
+* **Arithmetic Operators:** Mastering the core mathematical operations, including the nuances of integer division and the modulus operator `%`.
+* **Relational and Logical Operators:** Implementing boolean logic using `&&`, `||`, and `!`. Leveraging short-circuit evaluation for performance-optimized branching.
+* **Assignment & Compound Assignments:** Utilizing shorthand notation (`+=`, `*=`, etc.) for concise, efficient state updates.
+* **Type Conversion & Casts:** Navigating implicit promotions and explicit `static_cast<type>()` to manage data precision and prevent overflow in quantitative calculations.
+* **Spacing and Parentheses:** Refining code readability and ensuring correct operator precedence to eliminate logic errors in complex expressions.
+
+---
+
 *More to come...*
