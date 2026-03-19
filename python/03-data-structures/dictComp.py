@@ -1,0 +1,4 @@
+## Program to create a dictionary using dictionary comprehension
+
+cubes = {x: x**3 for x in range(1, 11)}
+print(cubes)

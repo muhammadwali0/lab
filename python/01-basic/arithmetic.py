@@ -1,0 +1,10 @@
+nmbr1=23
+nmbr2=32
+sum=nmbr1+nmbr2
+diff=nmbr1-nmbr2
+prod=nmbr1*nmbr2
+quot=nmbr1/nmbr2
+print(sum)
+print(diff)
+print(prod)
+print(quot)

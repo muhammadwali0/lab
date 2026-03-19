@@ -1,0 +1,5 @@
+pynvim
+ipykernel
+ipython
+jupytext
+requests
