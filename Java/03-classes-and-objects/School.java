@@ -6,6 +6,7 @@ public class School {
     Student s1 = new Student("Ali", 73121, s1Grades);
     Student s2 = new Student("Sara", 72124, s2Grades);
     s1.getDetails();
+    System.out.print('\n');
     s2.getDetails();
   }
 
